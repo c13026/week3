@@ -62,7 +62,7 @@ h3{
     width: calc(33.33333% - 24px);
 }
 .card-head img{
-    max-width: 100%;
+    width: 100%;
 }
 .card-body .row{
     display: flex;
