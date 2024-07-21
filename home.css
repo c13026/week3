@@ -1,0 +1,282 @@
+
+.bg{
+    background: center / cover no-repeat;
+}
+.banner-text{
+    margin: auto auto;
+}
+.banner h1{
+    font-weight: 800;
+}
+.banner a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 6px 12px;
+    background: #AA0601;
+}
+.banner-text{
+    text-align: right;
+    padding: 296px 0;
+}
+.sectioin6 .container,
+.sectioin5 .container,
+.sectioin4 .container,
+.sectioin3 .container,
+.sectioin2 .container{
+    padding: 80px 0;
+}
+.sectioin6,
+.sectioin2{
+    background: #fbf2f2;
+    
+}
+h2{
+    font-weight: 800;
+    text-align: center;
+}
+.sectioin2 .card img{
+    max-width: 100px;
+    max-height: 83px;
+    margin: 16px;
+}
+h5{
+    text-align: center;
+    font-weight: 800;
+}
+.card p{
+    font-weight: 500;
+}
+.sectioin2 .card{
+    flex-direction: column;
+    align-items: center;
+    margin: 4px 12px 0px;
+    padding: 16px 0;
+    width: 25%;
+}
+.col{
+    margin: 0 -12px;
+}
+.sectioin4 h2,
+.sectioin3 h2{
+    margin-bottom: 12px;
+}
+.sectioin3 .card{
+    margin: 12px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectioin3 .card img{
+    max-width: 100%;
+    margin-bottom: 8px;
+}
+
+.sectioin4 .col{
+    margin: 0 12px;
+}
+.sectioin4 .card{
+    width: 50%;
+    margin: 12px 0;
+    background: #FFF;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.sectioin5 .card img,
+.sectioin4 .card img{
+    max-width: 100%;
+}
+.sectioin4 .card h4{
+    margin: 8px auto;
+}
+.d-lg-none{
+    display: none;
+}
+.sectioin5 .card{
+    border-radius:4px;
+    border: #DEE2E6 1px solid;
+    box-shadow: 0 2px 6px #00000029;
+    flex-direction: column;
+    width: 25%;
+    margin: 0 12px;
+}
+.sectioin5 .card-body{
+    height: 205px;
+    padding: 16px;
+    flex-direction: column;
+}
+.sectioin5 span.fs14{
+    color: #707070;
+    margin-top: auto;
+}
+.sectioin5 b{
+    font-weight: 600;
+}
+form{
+    width: 50%;
+    margin: 48px auto 0;
+}
+.form p{
+    width: 100%;
+}
+.myform .fs20{
+    margin-bottom: 24px;
+}
+.myform{
+    flex-direction: column;
+    align-items: center;
+}
+.sectioin6 form{
+    font-weight: 500;
+}
+form textarea{
+    min-height: 32px;
+    height: 136px;
+    resize: vertical;
+}
+form textarea,
+form input{
+    width: calc(100% - 26px);
+    border: 1px solid #000;
+    background: transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+form input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right:6px;
+    margin-bottom: 4px;
+    background: #000;
+
+}
+form input::placeholder,
+form textarea::placeholder{
+    color: #0003;
+    font-weight: 600;
+}
+.agree{
+    display: flex;
+    align-items:center;
+}
+.sub{
+    background: #aa0601;
+    border: unset;
+    padding: 16px;
+    width: 66.66666%;
+    margin-top: 48px;
+    font-weight: 900;
+}
+@media (max-width:1296px) {
+    .container{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .banner-text {
+        text-align: right;
+        padding: 296px 37px;
+    }
+    .sectioin2 .col{
+        flex-wrap: wrap;
+        margin: 0 -12px;
+        padding: 20px;
+    }
+    .sectioin2 .card{
+        width: calc(50% - 24px);
+    }
+    .sectioin3 .col{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sectioin3 .card{
+        width: 50%;
+        margin: 12px;
+    }
+    .sectioin4 .col{
+        flex-direction: column;
+        padding: 12px 24px 0;
+    }
+    .sectioin4 .card{
+        width: 100%;
+    }
+    .sectioin5 .col{
+        flex-wrap: wrap;
+        padding: 12px 36px 0;
+    }
+
+    .sectioin5 .card{
+        width: calc(50% - 26px);
+        margin: 12px;
+    }
+    form{
+        width: 75%;
+        margin: 24px auto 0;
+    }
+    .sectioin6 .fs20{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
+@media (max-width:767px){
+    .banner-text {
+        text-align: right;
+        padding: 144px 14px;
+    }
+    .banner .fs64{
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 8px;
+    }
+    .banner .fs36{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .sectioin6 .container, .sectioin5 .container, .sectioin4 .container, .sectioin3 .container, .sectioin2 .container {
+        padding: 40px 0;
+    }
+    h2.fs48{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .sectioin2 .col{
+        margin: 0 -12px;
+        padding: 0 14px;
+    }
+    .sectioin2 .card{
+        width: 100%;
+        margin: 12px 12px 0px;
+    }
+    .sectioin2 .col{
+        padding: 0 14px;
+    }
+    .sectioin3 .card{
+        width: calc(100% - 52px);
+        margin: 12px;
+    }
+    .sectioin4 .col{
+        padding: 12px 2px 0;
+    }
+    .sectioin5 .col{
+        padding: 12px 24px 0;
+    }
+    .sectioin5 .card {
+        width: 100%;
+        margin: 8px 0px;
+    }
+    form{
+        width: calc(100% - 28px);
+    }
+    .sub{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .d-sm-none{
+        display: none;
+    }
+    .d-block{
+        display: block;
+    }
+}

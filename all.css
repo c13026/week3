@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset end */
+**::after*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto", "Noto Sans TC", "Material Symbols Outlined";
+}
+.header{
+    background: #AA0601;
+}
+.d-flex{
+    display: flex;
+}
+.header a.logoa{
+    padding: 0 32px;
+    margin-right: auto;
+}
+
+.logoa img{
+    display: block;
+}
+.header .logo{
+    width: 80px;
+    margin: 16px auto 16px 0;
+}
+.header a{
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    padding: 25px 32px;
+}
+.fs64{
+    font-size: 64px;
+    line-height: 96px;
+}
+.fs36{
+    font-size: 36px;
+    line-height: 54px;
+}
+.fs48{
+    font-size: 48px;
+    line-height: 72px;
+}
+.fs24{
+    font-size: 24px;
+    line-height: 36px;
+}
+.fs16{
+    font-size: 16px;
+    line-height: 24px;
+}
+.fs20{
+    font-size: 20px;
+    line-height: 30px;
+}
+.fs14{
+    font-size: 14px;
+    line-height: 21px;
+}
+.tc-650300{
+    color: #650300;
+}
+.tc-aa0601{
+    color: #AA0601;
+}
+.tc-fff{
+    color: #FFF;
+}
+.italic{
+    font-style: italic;
+    font-weight: 900;
+}
+.container{
+    width: 1296px;
+    margin: 0 auto;
+    padding: 0;
+}
+.boxa ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background: #aa0601;
+}
+
+.footer .row{
+    justify-content: space-between;
+    margin:0 12px;
+}
+.row.myrow{
+    margin: 48px 12px 0;
+}
+.footer .col{
+    margin: 0 -12px;
+}
+.footer .container{
+    border: 1px transparent solid;
+}
+.footer .col.foot-l{
+    align-items: stretch;
+    /* border: #000 1px solid; */
+    flex-direction: column;
+}
+.foot-l a{
+    color: #FFF;
+    text-decoration: none;
+    padding:0 16px;
+    display: inline-block;
+    line-height: 48px;
+}
+.foot-r a{
+    padding:0 16px;
+}
+.footer a img{
+    width: 48px;
+}
+.box{
+    color: #FFF;
+}
+.box .material-symbols-outlined{
+    font-size: 2.5rem;
+    margin: 14px 16px;
+    position: relative;
+    top: .5rem;
+}
+.footer hr{
+    margin: 14px 16px;
+}
+.pb p,
+.pb a{
+    display: inline-block;
+    padding: 18px 16px 32px;
+}
+.pb a:nth-child(2){
+    margin-left: auto;
+}
+
+@media (max-width:1296px) {
+    .container{
+        width: 100%;
+    }
+    .row.myrow{
+        margin: 48px 32px 0;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .footer .col{
+        margin: 0 -12px;
+    }
+    .footer hr{
+        margin: 14px 32px;
+    }
+    .pb p,
+    .pb a{
+        padding: 18px 32px 32px;
+    }
+}
+@media (max-width:767px){
+    .header .container{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .header .fs20{
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+    .boxa li{
+        border: #FFF solid 1px;
+        width: calc(50% - 2px);
+        display: flex;
+        align-items: stretch;
+    }
+    .boxa li a{
+        display: inline-block;
+
+        width: 100%;
+        text-align: center;
+    }
+    .header a{
+        padding: 12px;
+    }
+    .mya{
+        display: none;
+    }
+    .footer .col{
+        margin: 0 -16px;
+    }
+    .footer hr{
+        margin: 14px 16px;
+    }
+    .pb p,
+    .pb a{
+        padding: 4px 20px 16px;
+    }
+    .box{
+        padding:  0 14px;
+        margin-top: -8px;
+    }
+    .box .material-symbols-outlined{
+        font-size: 1.5rem;
+        margin: 4px;
+    }
+    .box .fs36{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer a{
+        display: inline-block;
+    }
+    .footer a img{
+        width: 24px;
+        height: 24px;
+    }
+    .row.myrow {
+        margin: 24px 16px 0;
+    }
+    .foot-r{
+        margin: 0;
+        padding: 0 16px;
+    }
+    .foot-r a{
+        padding: 4px;
+    }
+    .pb .col{
+        flex-direction: column;
+    }
+    .pb a:nth-child(2){
+        margin-left: unset;
+    }
+}
